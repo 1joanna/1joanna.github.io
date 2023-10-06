@@ -1,4 +1,6 @@
-body {background-color: rgb(60, 59, 59); 
+body {
+    background-color: rgb(36, 34, 34); /* selaimille joka ei tue gradientteja*/
+    background-image: linear-gradient(rgb(84, 63, 84), black);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;}
 h1 {color: white;}
@@ -15,7 +17,7 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 a:link, a:visited {
-    background-color: darkgrey;
+    background-color: rgb(62, 61, 61);
     color: white;
     border: 2px solid violet;
     padding: 10px 20px;
