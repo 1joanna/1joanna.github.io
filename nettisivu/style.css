@@ -11,7 +11,7 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background-image: linear-gradient(to right, red, purple);
+  background-image: linear-gradient(to right, orange, purple);
 }
 .header h1 {
   font-size: 50px;
