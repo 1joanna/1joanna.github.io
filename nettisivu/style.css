@@ -5,13 +5,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     padding: 10px;
     background: #f1f1f1;
-    background-image: linear-gradient(orange, purple);
+    background-image: linear-gradient(white, orange, purple);
     color: white;
 }
 .header {
   padding: 30px;
   text-align: center;
-  background-image: linear-gradient(to right, orange, purple);
+  background-image: linear-gradient(to right, blue, purple);
 }
 .header h1 {
   font-size: 50px;
@@ -46,7 +46,7 @@ img {
   padding: 10px;
 }
 .card {
-  background-image: linear-gradient(to bottom right, orange, blue);
+  background-image: linear-gradient(to bottom right, purple, blue);
   padding: 10px;
   margin-top: 20px;
 }
