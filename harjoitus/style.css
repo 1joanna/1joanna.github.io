@@ -1,13 +1,75 @@
 body {
-    text-align: center;
-    background-color: lightslategray;
+    background-image: linear-gradient(rgb(120, 186, 120), purple);
 }
-img {
+.header {
+    padding: 30px;
+    text-align: center;
+    background: fixed;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+.header h1 {
+    font-size: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: rgb(46, 45, 45);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+li a {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    max-width: 50%;
-    border-radius: 20%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
