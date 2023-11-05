@@ -219,6 +219,8 @@ header h1 {
         page-break-after: avoid;
     }
 }
+/* oma koodi*/
+
 figure {
     position: relative;
 }
@@ -234,6 +236,9 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 h3 {
     margin: 5px 10px;
@@ -250,4 +255,10 @@ main {
 }
 aside {
     width: 20%;
+}
+p {
+    margin-left: 15px;
+}
+@media only screen and (max-width: 600px) {
+    main, aside { width: 100%; }
 }
