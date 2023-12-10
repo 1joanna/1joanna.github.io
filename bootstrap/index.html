@@ -1,54 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    </head>
-    <body>
-        
-        <header>
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>bootstrap sivu</h2>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main>
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>moislkfdödlfkölsdfkölf</p>
-                    </div>
-                    <div class="col-md-6">
-                        <p> ösldfkölsdfkölsdfkölf</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <p>ölasdkölaskdfölasfkölsafkföl</p>
-                        </div>
-                        <div class="col-md-8">
-                            <P>sofköldsfösdfösdlfösdfsdöflfsd</P>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <p>sdlfkölsdfksldöf</p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>sdlfkölsdfksldöf</p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>sdlfkölsdfksldöf</p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>sdlfkölsdfksldöf</p>
-                    </div>
-                </div>
-            </div>
-        </main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Bootstrap Sivu</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+  <header class="container mt-5">
+    <h1>MAALAUSTEKNIIKAT</h1>
+  </header>
+
+  <div class="container">
+    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+      <form class="container-fluid justify-content-start">
+        <a href="../projekti/index.html" class="btn btn-primary cta-button">Etusivu</a>
+        <a href="../index.html" class="btn btn-primary cta-button">Palautussivu</a>
+      </form>
+    </nav>
+  </div>
+ 
+  
+
+
+
+    <section class="container mt-3">
+        <h2>Akryyli-, öljy- ja vesivärimaalaus</h2>
+        <p>Tutustu erilaisiin maalaustekniikoihin ja niiden käyttöön.</p>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Maalaustekniikat</h3>
+                <p>Öljyvärimaalaus, akryylimaalaus ja vesivärimaalaus ovat kolme erilaista maalaustekniikkaa, 
+                  joilla on omat ominaispiirteensä ja käyttötarkoituksensa. Tässä on vertailu niiden keskeisistä 
+                  eroista:</p>
+                <h5>Kuivumisaika</h5>
+                <p>Öljyvärimaalaus: Hidas kuivuminen (päiviä/viikkoja).<br>
+                  Akryylimaalaus: Nopea kuivuminen (muutamia tunteja).<br>
+                  Vesivärimaalaus: Nopea kuivuminen (lyhyt aika).</p>
+                <h5>Värien kirkkaus ja läpinäkyvyys</h5>  
+                <P>Öljyvärimaalaus: Syvät ja rikkaat värit, voi olla peittäviä tai läpinäkyviä.<br>
+                  Akryylimaalaus: Kirkkaat värit, monipuolinen peitto ja läpinäkyvyys.<br>
+                  Vesivärimaalaus: Usein läpinäkyvää, värien kirkkaus riippuu pohjasta.</P>
+                <h5>Maalausalueet</h5>
+                <p>Öljyvärimaalaus: Soveltuu useille pinnoille kuten puulle ja kankaalle.<br>
+                  Akryylimaalaus: Monipuolinen, sopii useille pinnoille kuten kangas, puu ja metalli.<br>
+                  Vesivärimaalaus: Tehty pääasiassa vesiväripaperille.</p>
+                  <h5>Kerrostaminen</h5>
+                  <p>Öljyvärimaalaus: Helppo kerrostaa, luo syviä ja monimutkaisia kerroksia.<br>
+                    Akryylimaalaus: Kerrostettava, mutta vaatii nopeampaa työskentelyä.<br>
+                    Vesivärimaalaus: Voi olla kerrostettavaa, mutta läpinäkyvyys voi rajoittaa syvien kerrosten luomista.</p>
+                  <h5>Korjattavuus</h5>
+                  <p>Öljyvärimaalaus: Erinomainen korjattavuus, pitkä kuivumisaika mahdollistaa muokkaukset.<br>
+                    Akryylimaalaus: Korjattavissa, mutta nopean kuivumisen vuoksi aikarajoitettu.<br>
+                    Vesivärimaalaus: Vaikeampi korjattavuus, nopea kuivuminen rajoittaa muokkausmahdollisuuksia.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Akryylimaalaus</h3>
+                <img src="akryyli-maalaus.png" alt="Akryyli-maalaus kuva" class="img-fluid">
+                <p>Akryylimaalaus on suosittu tekniikka monipuolisuutensa vuoksi. 
+                  Akryylimaaleilla voi saavuttaa erilaisia efektejä, ja ne soveltuvat useille eri alustoille. 
+                  Aloittelijoille akryylimaalaus tarjoaa helpon tavan tutustua maailmaan, 
+                  kun taas kokeneet taiteilijat voivat käyttää niitä monimutkaisempien teosten luomiseen.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Öljyvärimaalaus</h3>
+                <img src="oljy_maalaus.png" alt="Öljyvärimaalaus kuva" class="img-fluid">
+                <p>Öljyvärimaalaus on perinteinen ja kestävä maalaustekniikka. 
+                  Öljyvärit kuivuvat hitaasti, mikä antaa taiteilijalle mahdollisuuden sekoittaa värejä 
+                  ja työstää maalausta pitkän ajan kuluessa. Tämä tekniikka sopii erityisen hyvin tarkkuutta 
+                  vaativiin teoksiin.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Vesivärimaalaus</h3>
+                <img src="vesivari.png" alt="Vesivärimaalaus kuva" class="img-fluid">
+                <p>Vesivärimaalaus on kevyt ja nopea tekniikka, joka perustuu veden ja pigmentin sekoittamiseen. 
+                  Vesivärimaalaus on suosittu erityisesti maisema- ja taidepiirroksissa. Vesivärit tarjoavat 
+                  ainutlaatuisen läpikuultavan vaikutuksen, ja niitä voi käyttää sekä ohuissa että paksuissa 
+                  kerroksissa.</p>
+            </div>
+            <div class="col-md-8">
+                <h3>Muita tekniikoita</h3>
+                <img src="gouache.png" alt="gouache" class="img-fluid"style="width: 300px; height: auto;">
+                <img src="pastel.png" alt="pastel" class="img-fluid" style="width: 300px; height: auto;">
+                <p>Muita tekniikoita ovat esimerkiksi: Gouache, temperamaalaus, pastellimaalaus.</p>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+              <div class="card">
+                  <div class="card-body">
+                      <img src="syntetic.png" class="card-img-top" alt="...">
+                      <h5 class="card-title">Synteettiset harjakset</h5>
+                      <p class="card-text">Useimmat akryylimaalausta varten suunnitellut pensselit ovat synteettisiä, 
+                        ja ne voivat sisältää esimerkiksi nailonia tai polyesteriä. Nämä harjakset säilyttävät 
+                        muotonsa hyvin ja ovat yleensä kulumiskestäviä.</p>
+                        <a href="#" class="btn btn-primary cta-button">Osta täältä</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <img src="natural.png" class="card-img-top" alt="...">
+                    <h5 class="card-title">Luonnonkarva</h5>
+                    <p class="card-text">Monet öljyvärimaalaajat suosivat luonnonkarvapensseleitä, 
+                      kuten sian- tai mäyränkarvaa. Nämä harjakset kykenevät pitämään enemmän maalia ja 
+                      antavat pehmeän ja tasaisen jäljen.</p>
+                    <a href="#" class="btn btn-primary cta-button">Osta täältä</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <img src="paletti.png" class="card-img-top" alt="...">
+                    <h5 class="card-title">Paletti</h5>
+                    <p class="card-text">Paletti on pinta, jolla taiteilija sekoittaa ja laimentaa värejä ennen 
+                      niiden levittämistä kankaalle tai paperille.</p>
+                    <a href="#" class="btn btn-primary cta-button">Osta täältä</a>
+                </div>
+            </div>
+          </div>
+         <div class="col-md-3">
+          <div class="card">
+              <div class="card-body">
+                  <img src="maalausveitsi.png" class="card-img-top" alt="...">
+                  <h5 class="card-title">Maalausveitsi</h5>
+                  <p class="card-text">Maalausveitsi on terävä veitsi, jota käytetään värin sekoittamiseen paletilla, 
+                    mutta sitä voidaan myös käyttää suurten väripintojen luomiseen.</p>
+                  <a href="#" class="btn btn-primary cta-button">Osta täältä</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <footer class="container mt-5">
+        <p>&copy; 2023 Maalaustekniikat | Joanna</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

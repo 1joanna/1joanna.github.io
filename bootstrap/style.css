@@ -1,0 +1,39 @@
+body {
+    background-image: url('nightsky.jpg');
+    color: #ffffff;
+}
+
+header, nav, section, footer {
+    background-color: #252e38; 
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #ebf2f8; 
+}
+
+.row {
+    overflow: auto;
+}
+
+.nav-link {
+    border-top: 1px solid #87b3d1; 
+}
+
+.btn.cta-button {
+    background-color: #0F101A;
+    color: white;
+    border: 1px solid rgb(61, 188, 238);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.cta-button:hover {
+    background-color: #294C60;
+  }
